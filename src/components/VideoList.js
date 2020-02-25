@@ -1,7 +1,7 @@
 import React from 'react';
 
-const VideoList = () => {
-    return <div>List</div>
+const VideoList = ({ videos }) => {
+    return <div>{videos.length}</div>
 };
 
 export default VideoList;
